@@ -60,6 +60,11 @@ body {
   text-underline-offset: 3px;
   text-underline-position: under;
 }
+.navBar a.active {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  text-underline-position: under;
+}
 img {
   display: block;
   max-width: 600px;
