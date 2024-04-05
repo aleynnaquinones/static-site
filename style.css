@@ -35,9 +35,16 @@ body {
   text-transform: uppercase;
   letter-spacing: 0.2rem;
 }
+.subheader.sectionTitle {
+  font-size: 1.5rem;
+  font-weight: 300;
+  line-height: 1.3em;
+  margin-bottom: 10px;
+  margin-top: 40px;
+}
 .navBar {
   text-align: center;
-  margin: 30px 0;
+  margin: 20px 0;
 }
 .navBar a {
   letter-spacing: 0.1rem;
@@ -53,8 +60,9 @@ body {
   text-underline-position: under;
 }
 img {
-  max-width: 400px;
-  margin: auto;
+  display: block;
+  max-width: 600px;
+  margin: 20px auto;
   padding: 5px;
   border-radius: 100px 100px 0 0;
 }
@@ -63,5 +71,17 @@ img {
 }
 p {
   margin: auto;
-  max-width: 800px;
+  max-width: 600px;
+  font-weight: 300;
+  letter-spacing: 0.05rem;
+}
+.content {
+  max-width: 600px;
+  margin: auto;
+}
+.titleWrapper {
+  border: 1px solid black;
+  width: max-content;
+  margin: auto;
+  padding: 10px;
 }
